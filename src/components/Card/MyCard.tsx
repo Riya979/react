@@ -12,7 +12,7 @@ export const Mycard:React.FC<{img:any}>=(props)=>{
     <Card sx={{ maxWidth: 300 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image={props.img}
+        image="/b.jpg"
         title="green iguana"
       />
       <CardContent>

@@ -22,4 +22,4 @@ export const MYuseEffect:React.FC<{}>=()=>{
 {mydata.map((item:any)=>{ return <img height='200px' src={`${item.image}`}/>})}
 
     </>
-}
+} 

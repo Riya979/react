@@ -7,10 +7,10 @@ export const Register:React.FC<{}>=()=>{
    let [email,setEmail] =useState<any>()
    let [password,setPassword] =useState<any>()
    let navigate=useNavigate()
-  let handleSubmit=()=>{
+   let handleSubmit=()=>{
     alert(email+" "+password+" "+name)
     navigate('/project/login')
-  }
+     }
     return <>
 
 <Grid
@@ -21,9 +21,9 @@ export const Register:React.FC<{}>=()=>{
 >
     <h1> Register page</h1>
     <TextField id="outlined-basic" label="name" variant="outlined"  onChange={(e)=>{setName(e.target.value)}}/>
-<br />
+<br/>
 <TextField id="outlined-basic" label="email" variant="outlined"  onChange={(e)=>{setEmail(e.target.value)}}/>
-<br />
+<br/>
 <TextField id="outlined-basic" label="password" variant="outlined" 
 onChange={(e)=>{setPassword(e.target.value)}}/>
 <br></br>

@@ -1,6 +1,3 @@
-
-
-
 import Carousel from 'react-bootstrap/esm/Carousel'
 import img1 from '../../static/img/1.jpg'
 import img2 from '../../static/img/2.jpg'

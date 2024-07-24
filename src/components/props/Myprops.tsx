@@ -21,7 +21,7 @@ export const MyProps:React.FC=()=>{
        })}
     
        <h1>Different images</h1>
-       {myarry.map((im)=>{
+       {myarry.map((im)=>{ 
         return <MyImg2 gift={im}/>
        })}
         </>
